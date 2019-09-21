@@ -1,5 +1,8 @@
 # dosgames
 Script to download, install and run some of my favorite DOS games on Linux. Works with dnf-based distributions such as Fedora RHEL and CentOS
+Prepared for a talk for http://openalt.cz/ conference
+
+
 
 ## How to use the script
 Open your terminal and run: 
