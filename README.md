@@ -3,9 +3,13 @@ Script to download, install and run some of my favorite DOS games on Linux. Work
 Prepared for a talk for http://openalt.cz/ conference
 
 
-
 ## How to use the script
 Open your terminal and run: 
+```
+wget https://raw.github.com/pholta/dosgames/master/dosgames.sh
+chmod u+x ./dosgames.sh 
+./dosgames.sh
+```
 
 ## Author
 [Jiri Folta](mailto:jiri.folta@centrum.cz)
