@@ -1,12 +1,12 @@
 #!/bin/bash
 
-# first, install dosbox and unzip (in case they are not yet installed)
-# Uncomment based on your distro
+#first, install dosbox and unzip (in case they are not yet installed)
+#Uncomment based on your distro
 
-#RRP based
+#RRP based (Fedora, CentOS, RHEL, ...)
 #sudo dnf install dosbox unzip
 
-#deb based
+#deb based (Debian, Ubuntu, Linux Mint, ...)
 #sudo apt-get install install dosbox unzip
 
 #create directories
