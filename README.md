@@ -1,14 +1,10 @@
 # dosgames
-Script to download, install and run some of my favorite DOS games on Linux. 
+Script to download, install and run some of my favorite DOS games on Linux. Currently supports Deb and RPM based distributions. 
 
 ## How to use the script
 Open your terminal and run: 
 ```
 wget https://raw.github.com/pholta/dosgames/master/dosgames.sh
-```
-Edit dosgames.sh and uncomment based on your distro (RPM, or DEB based)
-
-```
 chmod u+x ./dosgames.sh 
 ./dosgames.sh
 ```
