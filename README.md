@@ -6,7 +6,7 @@ Open your terminal and run:
 ```
 wget https://raw.github.com/pholta/dosgames/master/dosgames.sh
 ```
-Edit dosgames.sh use the install command based on your distro
+Edit dosgames.sh and uncomment based on your distro (RPM, or DEB based)
 
 ```
 chmod u+x ./dosgames.sh 
