@@ -1,11 +1,14 @@
 # dosgames
-Script to download, install and run some of my favorite DOS games on Linux. Works with dnf-based distributions such as Fedora RHEL and CentOS
-
+Script to download, install and run some of my favorite DOS games on Linux. 
 
 ## How to use the script
 Open your terminal and run: 
 ```
 wget https://raw.github.com/pholta/dosgames/master/dosgames.sh
+```
+Edit dosgames.sh use the install command based on your distro
+
+```
 chmod u+x ./dosgames.sh 
 ./dosgames.sh
 ```
