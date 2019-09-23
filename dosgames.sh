@@ -2,7 +2,7 @@
 
 #first, figure out what distro it is and install needed packages
 apt=`command -v apt-get`
-yum=`command -v yum`
+yum=`command -v dnf`
 if [ -n "$apt" ]; then
     sudo apt-get -y install dosbox unzip
 elif [ -n "$yum" ]; then
