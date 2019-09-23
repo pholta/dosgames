@@ -1,13 +1,16 @@
 #!/bin/bash
 
-#first, install dosbox and unzip (in case they are not yet installed)
-#Uncomment based on your distro
-
-#RRP based (Fedora, CentOS, RHEL, ...)
-#sudo dnf install dosbox unzip
-
-#deb based (Debian, Ubuntu, Linux Mint, ...)
-#sudo apt-get install install dosbox unzip
+#first, figure out what distro it is and install needed packages
+apt=`command -v apt-get`
+yum=`command -v yum`
+if [ -n "$apt" ]; then
+    sudo apt-get -y install dosbox unzip
+elif [ -n "$yum" ]; then
+    sudo dnf -y install dosbox unzip
+else
+    echo "Err: not a DEB, or RPM distro" >&2;
+    exit 1;
+fi
 
 #create directories
 mkdir ~/dos_folder
