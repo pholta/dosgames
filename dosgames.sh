@@ -16,7 +16,7 @@ fi
 mkdir ~/dos_folder
 mkdir ~/dos_folder/games
 
-#download and unzip games from https://www.dosgames.com/
+#download games from https://www.dosgames.com/ and unzip
 wget https://www.dosgames.com/files/DOSBOX_BLOOD.ZIP -P ~/dos_folder
 unzip ~/dos_folder/DOSBOX_BLOOD.ZIP -d ~/dos_folder/games/BLOOD
 wget https://www.dosgames.com/files/DOSBOX_KEEN4.ZIP -P ~/dos_folder
