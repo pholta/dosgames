@@ -1,7 +1,13 @@
 #!/bin/bash
 
-#first, install dosbox and unzip (in case they are not yet installed)
-sudo dnf install dosbox unzip -y
+# first, install dosbox and unzip (in case they are not yet installed)
+# Uncomment based on your distro
+
+#RRP based
+#sudo dnf install dosbox unzip
+
+#deb based
+#sudo apt-get install install dosbox unzip
 
 #create directories
 mkdir ~/dos_folder
@@ -27,13 +33,13 @@ unzip ~/dos_folder/DOSBOX_QUAKE.ZIP -d ~/dos_folder/games/QUAKE
 wget https://www.dosgames.com/files/DOSBOX_WOLF3D.ZIP -P ~/dos_folder
 unzip ~/dos_folder/DOSBOX_WOLF3D.ZIP -d ~/dos_folder/games/WOLF3D
 
-#download and unzip Volkov commander the source 
+#download and unzip Volkov Commander the source 
 wget https://vvv.kiev.ua/download/vc400sw.zip -P ~/dos_folder
 unzip ~/dos_folder/vc400sw.zip -d ~/dos_folder/VC
 
 #delete downloaded archives, not needed any more
 rm ~/dos_folder/*.*
 
-#start dosbox with with auto mounting game directory and starting Volkov commander 
+#start dosbox with with auto mounting game directory and starting Volkov Commander 
 dosbox -c "MOUNT c ~/dos_folder" -c "c:" -c "c:\vc\vc.com"
 
