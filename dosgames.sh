@@ -35,6 +35,8 @@ wget https://www.dosgames.com/files/DOSBOX_QUAKE.ZIP -P ~/dos_folder
 unzip ~/dos_folder/DOSBOX_QUAKE.ZIP -d ~/dos_folder/games/QUAKE
 wget https://www.dosgames.com/files/DOSBOX_WOLF3D.ZIP -P ~/dos_folder
 unzip ~/dos_folder/DOSBOX_WOLF3D.ZIP -d ~/dos_folder/games/WOLF3D
+wget https://www.dosgames.com/files/timdemo.zip -P ~/dos_folder
+unzip ~/dos_folder/timdemo.zip -d ~/dos_folder/games/IMACHINE
 
 #download and unzip Volkov Commander the source 
 wget https://vvv.kiev.ua/download/vc400sw.zip -P ~/dos_folder
